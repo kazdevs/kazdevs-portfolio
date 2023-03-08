@@ -18,7 +18,7 @@ const Contact = () => {
             Email
           </a>
           <a
-            href='https://https://www.linkedin.com/in/okezi-ikokeno-04b27b233/'
+            href='https://www.linkedin.com/in/okezi-ikokeno-04b27b233/'
             target='_blank'
             className='btn white'
           >

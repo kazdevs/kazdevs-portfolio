@@ -21,7 +21,7 @@ const Projects = () => {
         </div>
         <p className='projects__first-p'>
           I have worked on a variety of projects, both personal and
-          proffesional. here are some of them.
+          proffesional. Here are some of them.
         </p>
         <div className='projects__wrapper'>
           {data.map((item) => {

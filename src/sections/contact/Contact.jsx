@@ -14,15 +14,11 @@ const Contact = () => {
           any of the following and I’d get to you as soon as possible.
         </p>
         <div className='contact__btns'>
-          <a
-            href='mailto:otaighobawo@gmail.com'
-            target='_blank'
-            className='btn'
-          >
+          <a href='mailto:kazdevs@gmail.com' target='_blank' className='btn'>
             Email
           </a>
           <a
-            href='https://www.linkedin.com/in/bawo-otaigho-b49a69167/'
+            href='https://https://www.linkedin.com/in/okezi-ikokeno-04b27b233/'
             target='_blank'
             className='btn white'
           >

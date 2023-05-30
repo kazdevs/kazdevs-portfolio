@@ -1,6 +1,7 @@
 import YouTubeCloneImg from '../../assets/youtubeclone.png'
+import HoneypotImg from '../../assets/honeypot screenshot.png'
 import ReactadminImg from '../../assets/react-admin.png'
-// import BikerImg from '../../assets/Biker.png'
+import SpeaktolearnImg from '../../assets/speaktolearnscreenshot.png'
 import ShaifsCuisineImg from '../../assets/shaifs-cuisine.png'
 import CardanoImg from '../../assets/cardano-thumbnail.png'
 import ColorGeneratorImg from '../../assets/color-generator.png'
@@ -9,6 +10,155 @@ const data = [
   {
     id: 1,
     number: '01',
+    image: HoneypotImg,
+    liveLink: 'https://honeypotcleaning.netlify.app/',
+    githubLink: 'https://github.com/kazdevs/Honeypot-cleaning/tree/master',
+    title: 'Honeypot Cleaning Service',
+    projectOverview: `A cleaning service website designed and built for a canadian based cleaning agency`,
+    mainText: `A cleaning service website designed and built for a canadian based cleaning agency`,
+    smallText: `A cleaning service website designed and built for a canadian based cleaning agency`,
+    inspiration: `
+    This project was inspired by zest for work.`,
+    paragraphs: [
+      {
+        id: 1,
+        p: 'HTML',
+      },
+      {
+        id: 2,
+        p: 'CSS',
+      },
+      {
+        id: 3,
+        p: 'javascript',
+      },
+      {
+        id: 4,
+        p: 'AOS',
+      },
+      {
+        id: 5,
+        p: 'Netlify Deployment',
+      },
+    ],
+  },
+  {
+    id: 2,
+    number: '02',
+    image: SpeaktolearnImg,
+    liveLink: 'https://speaktolearntoday.com/',
+    githubLink: 'https://github.com/kazdevs/speak-to-learn/tree/master',
+    title: 'Speak To Learn',
+    projectOverview: `This is a platform that connects english learners to english speakers`,
+    mainText: `This is a platform that connects english learners to english speakers`,
+    smallText: `This is a platform that connects english learners to english speakers`,
+    inspiration: `
+    This project was inspired by zest for work.`,
+    paragraphs: [
+      {
+        id: 1,
+        p: 'HTML',
+      },
+      {
+        id: 2,
+        p: 'CSS',
+      },
+      {
+        id: 3,
+        p: 'React js',
+      },
+      {
+        id: 4,
+        p: 'framer motion',
+      },
+      {
+        id: 5,
+        p: 'paystack payment gateway',
+      },
+      {
+        id: 6,
+        p: 'Calendly Integration',
+      },
+      {
+        id: 7,
+        p: 'C-panel Deployment',
+      },
+    ],
+  },
+  {
+    id: 3,
+    number: '03',
+    image: ReactadminImg,
+    liveLink: 'https://react-dashboard-practice-project.netlify.app/',
+    githubLink: 'https://github.com/kazdevs/React-admin/tree/master',
+    title: 'React admin dashboard',
+    projectOverview: `An admin dashboard project created for learning purposes`,
+    mainText: `An admin dashboard project created for learning purposes`,
+    smallText: `An admin dashboard project created for learning purposes`,
+    inspiration: `
+    This project was inspired by learning from YouTube.`,
+    paragraphs: [
+      {
+        id: 1,
+        p: 'HTML',
+      },
+      {
+        id: 2,
+        p: 'SCSS',
+      },
+      {
+        id: 3,
+        p: 'React Js',
+      },
+      {
+        id: 4,
+        p: 'Material UI',
+      },
+      {
+        id: 5,
+        p: 'Netlify Deployment',
+      },
+    ],
+  },
+  {
+    id: 4,
+    number: '04',
+    image: ShaifsCuisineImg,
+    liveLink: 'https://shaif-s-cuisine.netlify.app/',
+    githubLink: 'https://github.com/kazdevs/Shaif-s-cuisine-website',
+    title: 'Restuarant website',
+    projectOverview: `A restaurant website (shaifs cuisine)`,
+    mainText: `A restaurant website (shaifs cuisine)`,
+    smallText: `A restaurant website (shaifs cuisine)`,
+    inspiration: `
+    This project was inspired by learning from YouTube.`,
+    paragraphs: [
+      {
+        id: 1,
+        p: 'HTML',
+      },
+      {
+        id: 2,
+        p: 'CSS',
+      },
+      {
+        id: 3,
+        p: 'javascript',
+      },
+      {
+        id: 4,
+        p: 'AOS',
+      },
+
+      {
+        id: 5,
+        p: 'Netlify Deployment',
+      },
+    ],
+  },
+  {
+    id: 5,
+    number: '05',
     image: YouTubeCloneImg,
     liveLink: 'https://youtube-clone-website-reactjs.netlify.app/',
     githubLink: 'https://github.com/kazdevs/YouTube-Clone/tree/master',
@@ -47,79 +197,8 @@ const data = [
     ],
   },
   {
-    id: 2,
-    number: '02',
-    image: ReactadminImg,
-    liveLink: 'https://react-dashboard-practice-project.netlify.app/',
-    githubLink: 'https://github.com/kazdevs/React-admin/tree/master',
-    title: 'React admin dashboard',
-    projectOverview: `An admin dashboard project created for learning purposes`,
-    mainText: `An admin dashboard project created for learning purposes`,
-    smallText: `An admin dashboard project created for learning purposes`,
-    inspiration: `
-    This project was inspired by learning from YouTube.`,
-    paragraphs: [
-      {
-        id: 1,
-        p: 'HTML',
-      },
-      {
-        id: 2,
-        p: 'SCSS',
-      },
-      {
-        id: 3,
-        p: 'React Js',
-      },
-      {
-        id: 4,
-        p: 'Material UI',
-      },
-      {
-        id: 5,
-        p: 'Netlify Deployment',
-      },
-    ],
-  },
-  {
-    id: 3,
-    number: '03',
-    image: ShaifsCuisineImg,
-    liveLink: 'https://shaif-s-cuisine.netlify.app/',
-    githubLink: 'https://github.com/kazdevs/Shaif-s-cuisine-website',
-    title: 'Restuarant website',
-    projectOverview: `A restaurant website (shaifs cuisine)`,
-    mainText: `A restaurant website (shaifs cuisine)`,
-    smallText: `A restaurant website (shaifs cuisine)`,
-    inspiration: `
-    This project was inspired by learning from YouTube.`,
-    paragraphs: [
-      {
-        id: 1,
-        p: 'HTML',
-      },
-      {
-        id: 2,
-        p: 'CSS',
-      },
-      {
-        id: 3,
-        p: 'javascript',
-      },
-      {
-        id: 4,
-        p: 'AOS',
-      },
-
-      {
-        id: 5,
-        p: 'Netlify Deployment',
-      },
-    ],
-  },
-  {
-    id: 4,
-    number: '04',
+    id: 6,
+    number: '06',
     image: CardanoImg,
     liveLink: 'https://cardano-website-clone.netlify.app/',
     githubLink: 'https://github.com/kazdevs/cardano-site',
@@ -145,8 +224,8 @@ const data = [
     ],
   },
   {
-    id: 5,
-    number: '05',
+    id: 7,
+    number: '07',
     image: ColorGeneratorImg,
     liveLink: 'https://color-generator-reactjs-webapp.netlify.app/',
     githubLink: 'https://github.com/kazdevs/color-generator-react-app',

@@ -32,7 +32,7 @@ const Header = () => {
             >
               My name is Okezi and I have over 6 years of experience building
               and designing websites and web apps. I have worked with various
-              technologies, such as javascript, React, Tailwind CSS and many
+              technologies, such as javascript, React, Tailwind CSS, Node jss and many
               more.
             </motion.p>
           </div>
